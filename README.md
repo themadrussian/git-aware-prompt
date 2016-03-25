@@ -112,3 +112,11 @@ page. Or if you have tips of your own, feel free to add them :)
 ## License
 
 [CC0 1.0 Universal](http://creativecommons.org/publicdomain/zero/1.0/)
+
+## madrussian install instructions
+
+```bash
+#install the the project into ~/.bash/
+cp ~/.bash_profile .bash/.bash_profile.backup
+cat .bash/git-aware-prompt/.bash_profile >> ~/.bash_profile
+
